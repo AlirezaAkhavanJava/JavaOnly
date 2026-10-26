@@ -34,7 +34,7 @@ public class ConnectToDataBase {
 
 
         Statement statement = connection.createStatement();
-        statement.executeUpdate(insert);
+
 
 
         PreparedStatement preparedStatement = connection.prepareStatement(insertDynamic);
