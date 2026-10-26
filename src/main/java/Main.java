@@ -1,3 +1,8 @@
+import Connection.ConnectToDataBase;
 
-void main() {
+import java.sql.SQLException;
+
+void main() throws SQLException {
+    ConnectToDataBase connectToDataBase = new ConnectToDataBase();
+    connectToDataBase.makeConnection();
 }
